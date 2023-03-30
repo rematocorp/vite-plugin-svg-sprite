@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-svg-sprite",
-  "version": "0.3.1",
+  "name": "@remato/vite-plugin-svg-sprite",
+  "version": "0.3.3",
   "description": "SVG sprite plugin for Vite",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -28,9 +28,12 @@
     "svg"
   ],
   "author": "meowtec<bertonzh@gmail.com>",
-  "homepage": "https://github.com/meowtec/vite-plugin-svg-sprite",
+  "contributors": [
+    "viljark <viljar@remato.com>"
+  ],
+  "homepage": "https://github.com/rematocorp/vite-plugin-svg-sprite",
   "bugs": {
-    "url": "https://github.com/meowtec/vite-plugin-svg-sprite/issues"
+    "url": "https://github.com/rematocorp/vite-plugin-svg-sprite/issues"
   },
   "license": "MIT",
   "devDependencies": {
