@@ -1,5 +1,5 @@
 import pluginVue from '@vitejs/plugin-vue';
-import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
+import createSvgSpritePlugin from '@remato/vite-plugin-svg-sprite';
 
 /**
  * @type { import('vite').UserConfig }

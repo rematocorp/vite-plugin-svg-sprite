@@ -3,14 +3,14 @@ SVG sprite plugin for [Vite](https://github.com/vitejs/vite)
 
 ## install
 ```
-npm i vite-plugin-svg-sprite -D
+npm i @remato/vite-plugin-svg-sprite -D
 ```
 
 ## Usage
 vite.config.js:
 
 ```javascript
-import createSvgSpritePlugin from 'vite-plugin-svg-sprite';
+import createSvgSpritePlugin from '@remato/vite-plugin-svg-sprite';
 
 const config = {
   plugins: [
@@ -30,7 +30,7 @@ export default function App() {
   return (
     <svg>
       <use
-        xlinkHref={`#${appIconId}`}
+        xlinkHref={`#${appIconId.id}`}
       />
     </svg>
   );

@@ -1,7 +1,7 @@
 <template>
   <div>
     GRADE
-    <Icon :name="gradeIconId" />
+    <Icon :name="gradeIconId.id" />
   </div>
 </template>
 
