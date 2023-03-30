@@ -63,7 +63,7 @@ export default (options?: SvgSpriteOptions) => {
       return `
         import addSymbol from '@remato/vite-plugin-svg-sprite/runtime';
         addSymbol(${stringify(symbol.render())}, ${stringify(id)});
-        export default ${stringify(id)};
+        export default {id: ${stringify(id)}};
       `;
     },
   };
