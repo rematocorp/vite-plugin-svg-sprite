@@ -4,6 +4,7 @@
   "description": "SVG sprite plugin for Vite",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "import": {
