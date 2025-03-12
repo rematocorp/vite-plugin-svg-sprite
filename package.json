@@ -57,6 +57,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "glob": "^11.0.1",
     "micromatch": "^4.0.2",
     "svg-baker": "~1.7.0",
     "svgo": "^2.8.0"
